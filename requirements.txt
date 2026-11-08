@@ -1,0 +1,12 @@
+# PDF -> Markdown with layout and table recognition (installs PyTorch)
+docling>=2.0,<3
+# Vector store and local embeddings
+chromadb>=1.0,<2
+sentence-transformers
+# The agent: Groq chat completions with tool calling
+groq>=0.30,<1
+python-dotenv
+# Chat interface
+gradio>=5.0,<7
+# Tables in the walkthrough notebook
+pandas
